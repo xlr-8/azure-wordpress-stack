@@ -1,0 +1,27 @@
+project_name = ""
+environment  = ""
+
+region = "northeurope"
+site_url = ""
+
+#Virtual machines
+vm_admin_login     = ""
+vm_admin_password  = ""
+vm_image_publisher = ""
+vm_image_offer     = "0001-com-ubuntu-server-focal"
+vm_image_sku       = "20_04-lts-gen2"
+vm_image_version   = "latest"
+
+
+#Mysql
+mysql_admin_password                 = ""
+mysql_admin_login                    = ""
+mysql_sku_name                       = "GP_Standard_D2ds_v4"
+mysql_server_version                 = "5.7"
+mysql_server_backup_retention_length = 30
+
+#Ansible
+
+ansible_vars_output_path      = "../ansible/vars.yml"
+ansible_inventory_output_path = "../ansible/hosts"
+ssh_private_key_output_path = ""
